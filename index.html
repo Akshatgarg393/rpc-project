@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" href="lesson.css">
+  </head>
+  <body>
+
+       <div class="text-title" >Rock paper scissor game 
+  </div>
+      <div class="rps-div" id="rpcdic">
+  <div class="rps-div">
+    <img src="roc3.webp.jpg" onclick="function2(`Rock`)" class="img-size1">
+  </div>
+
+  <div class="rps-div">
+    <img src="paper2.webp.jpg" onclick="function2(`Paper`)"  class="img-size2">
+  </div>
+
+
+<div class="rps-div">
+  <img src="scissor3.webp.jpg" onclick="function2(`Scissor`)"  class="img-size3">
+</div>
+
+
+</div>
+
+<div class="result-match"></div>
+<div class="moves-all"></div>
+<div class="JS-score"></div>
+ 
+ <button class="reset-button" onclick="
+  score.win=0;
+  score.lose=0;
+  score.tie=0;
+   localStorage.removeItem(`score`);
+   updatescore();
+  ">Reset</button>
+  <script src="lesson1.js"></script>
+  </body>
+</html>
