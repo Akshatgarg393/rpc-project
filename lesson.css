@@ -1,0 +1,68 @@
+.rps-div{
+  display: flex;
+  flex-direction: row;
+ align-items: center;
+margin: 0px;
+margin-left: 25px;
+margin-right: 10px;
+}
+body{
+  background-color: black;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+.img-size1{
+  border: 20px;
+  border-color: white;
+  border-radius: 30px;
+  width: 120px;
+  height: 130px;
+}
+.img-size1:hover{
+  cursor: pointer;
+}
+.img-size2{
+  border-radius: 30px;
+  width: 130px;
+  height: 130px;
+}
+.img-size2:hover{
+  cursor: pointer;
+}
+.img-size3{
+  border-radius: 30px;
+  width: 130px;
+  height: 135px;
+}
+.img-size3:hover{
+  cursor: pointer;
+}
+.text-title{
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.result-match{
+  margin-left: 30px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.moves-all{
+  margin-left: 30px;
+  margin-bottom: 10px;
+  font-weight: 200;
+}
+.JS-score{
+  margin-left: 30px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+.reset-button{
+  margin-left: 30px;
+  padding: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
